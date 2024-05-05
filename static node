@@ -1,0 +1,12 @@
+//npm init
+//npm i express
+//create public folder and add index.html 
+//index.js create this file and add this code in index.js
+const express=require('express');
+const app=express();
+
+app.use(express.static('public'));
+
+app.listen(4000,()=>{
+    console.log("server start")
+})
