@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Create Side menu -->
+    <div class="side-menu">
+        <div class="brand-name">
+            <h1>SP</h1>
+        </div>
+
+        <ul>
+            <li><img src="dashboard (2).png" alt="">&nbsp;<span>Dashboard</span> </li>
+            <li><img src="student.png" alt="">&nbsp;<span>Student</span> </li>
+            <li><img src="teacher.png" alt="">&nbsp;<span>Teacher</span> </li>
+            <li><img src="assignment.png" alt="">&nbsp;<span>Assignment</span> </li>
+            <li><img src="exam.png" alt="">&nbsp;<span>Examination</span> </li>
+            <li><img src="notes.png" alt="">&nbsp;<span>Notes</span> </li>
+            <li><img src="activities.png" alt="">&nbsp;<span>Activities</span> </li>
+        </ul>
+    </div>
+
+    <!-- Creater Header/ Navbar -->
+    <div class="container">
+        <div class="header">
+            <div class="nav">
+                <div class="college-name">
+                    <h1> SP System Private Limited</h1>
+                </div>
+                &nbsp;
+                &nbsp;
+
+                <div class="user">
+                    <div class="img-case">
+                        <img src="user.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Create a cards -->
+        <div class="content">
+            <h1>Skills</h1>
+            <div class="cards">
+                <div class="card">
+                    <div class="box">
+                        <h1>HTML</h1>
+                        <h3>Students</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="student.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>Java</h1>
+                        <h3>Assignments</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="assignment.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>C++</h1>
+                        <h3>Teacher</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="teacher.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>PHP</h1>
+                        <h3>Exam Date</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="student.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="content">
+                <h1>My Projects</h1>
+                <div class="cards">
+                    <div class="card">
+                        <div class="box">
+                            <h1>React</h1>
+                            <h3>Students</h3>
+                        </div>
+                        <div class="icon-case">
+                            <img src="student.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <h1>AI / ML</h1>
+                            <h3>Assignments</h3>
+                        </div>
+                        <div class="icon-case">
+                            <img src="assignment.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <h1>VR </h1>
+                            <h3>Teacher</h3>
+                        </div>
+                        <div class="icon-case">
+                            <img src="teacher.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <h1>WEB</h1>
+                            <h3>Exam Date</h3>
+                        </div>
+                        <div class="icon-case">
+                            <img src="student.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
+<!-- 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+.side-menu{
+    position: fixed;
+    background-color: rgb(107, 104, 236);
+    width: 40vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.side-menu .brand-name{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+ .side-menu .brand-name h1{
+color: white;
+} 
+.side-menu li{
+    font-size: 20px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.side-menu li:hover{
+    color:rgb(107, 104, 236);
+    background: white;
+    border-radius: 20px;
+}
+.side-menu li img{
+    width: 20px;
+    height: 20px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    border-bottom: 2px solid #999;
+}
+.container{
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+    background: #f1f1f1;
+}
+.container .header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80vw;
+    height: 13vh;
+    background: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+.container .header .nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .header .nav .college-name h1{
+    color: rgb(77, 125, 230);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+h1,h2{
+    color: #444;
+}
+h3{
+    color: #999;
+}
+
+
+.container .header .nav .user img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .content{
+    position: relative;
+    margin-top: 15vh;
+    min-height: 90vh;
+    background:#f1f1f1;
+}
+.container .content .cards{
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container .content .cards .card{
+    width: 250px;
+    height: 150px;
+    background: white;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
+}
+.icon-case img{
+    position: relative;
+    height: 70px;
+    width: 70px;
+} -->
