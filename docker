@@ -1,0 +1,12 @@
+<<<<<<<<<<<<<docker practical>>>>>>>>>>>
+docker -v
+docker run
+
+docker images
+docker pull openjdk
+docker run --name java -it -d(detached mode) openjdk
+docker exec -it java jshell
+
+docker container rm (containerId)
+docker stop (containerId)
+docker container rm (containerId)
